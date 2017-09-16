@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Primera_EvaluacionDM</string>
+    <string name="lista_estudiantes">LISTA ESTUDIANTES</string>
+    <string name="nuevo_estudiante">NUEVO ESTUDIANTE</string>
+    <string name="codigo">Código</string>
+    <string name="nombre">Nombre</string>
+    <string name="materia">Materia</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="primer_parcial_30">Primer Parcial :30%</string>
+    <string name="segundo_parcial_30">Segundo Parcial :30%</string>
+    <string name="tercer_parcial_40">Tercer Parcial :40%</string>
+    <string name="lblNumero">TextView</string>
+</resources>

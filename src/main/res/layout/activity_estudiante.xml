@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.karla.primera_evaluaciondm.Principal">
+
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
+            android:inputType=""
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/txtCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/codigo"
+            android:inputType=""
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/txtMateria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/materia"
+            android:inputType=""
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/txtPrimerParcial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType=""
+            android:text="@string/primer_parcial_30"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/txtSegundoParcial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType=""
+            android:text="@string/segundo_parcial_30"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/txtTercerParcial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType=""
+            android:text="@string/tercer_parcial_40"
+            tools:ignore="LabelFor" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar"
+            android:id="@+id/btnGuardar"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            tools:ignore="ObsoleteLayoutParam" />
+
+
+
+
+</LinearLayout>
